@@ -30,3 +30,36 @@ A modern equipment tracking system that:
 - **Hosting**: Vercel (automatic deployment)
 
 ## 📁 Repository Structure
+├── demo-data/          # Sample data to import
+├── supabase/          # Database schema & functions
+├── prompts/           # v0 prompts for each feature
+├── docs/              # Workshop materials
+└── resources/         # Additional learning resources
+
+## 🚦 Quick Start (During Workshop)
+1. Fork this repository
+2. Set up Supabase project
+3. Import demo data
+4. Follow prompts in `/prompts` folder
+5. Deploy to Vercel
+
+## 📚 Workshop Resources
+- [Pre-Workshop Setup Guide](resources/pre-workshop-setup.md)
+- [Workshop Handout](docs/handout.pdf)
+- [Troubleshooting Guide](docs/troubleshooting.md)
+- [Next Steps & Challenges](resources/post-workshop-challenges.md)
+
+## 💬 Get Help
+- **Discord**: [LA-AI Community](https://discord.gg/la-ai)
+- **Email**: kai@la-ai.org
+- **Office Hours**: Fridays 2-4 PM
+
+## 🎉 After the Workshop
+- Customize your app with your organization's branding
+- Add email/SMS notifications
+- Implement barcode scanning
+- Create mobile app version
+- Share your creation in our Discord!
+
+---
+Built with ❤️ by [Lower Alabama AI](https://la-ai.org)
