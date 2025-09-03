@@ -52,8 +52,8 @@ A modern equipment tracking system that:
 - [Next Steps & Challenges](resources/post-workshop-challenges.md)
 
 ## 💬 Get Help
-- **Discord**: [LA-AI Community](https://discord.gg/la-ai)
-- **Email**: kai@la-ai.org
+- **Discord**: [LA-AI Community](https://discord.gg/a57wzV3jTE)
+- **Email**: kaigray@la-ai.io
 - **Office Hours**: Fridays 2-4 PM
 
 ## 🎉 After the Workshop

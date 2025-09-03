@@ -104,5 +104,5 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key_here
 ## Getting Help
 
 - Workshop repo: [github.com/Lower-Alabama-AI/equipment-tracker-workshop](https://github.com/Lower-Alabama-AI/equipment-tracker-workshop)
-- Discord: [LA-AI Community](https://discord.gg/la-ai)
-- Email: kai@la-ai.org
+- Discord: [LA-AI Community](https://discord.gg/a57wzV3jTE)
+- Email: kaigray@la-ai.io

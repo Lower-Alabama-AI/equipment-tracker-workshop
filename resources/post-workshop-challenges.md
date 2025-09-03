@@ -105,7 +105,7 @@
 ## 🤝 Stay Connected
 
 ### Join Our Community
-- Discord: [LA-AI Community](https://discord.gg/la-ai)
+- Discord: [LA-AI Community](https://discord.gg/a57wzV3jTE)
 - Monthly meetups
 - Show & tell sessions
 - Peer mentorship
@@ -129,4 +129,4 @@ You built a real app in 90 minutes! Imagine what you can build with 90 days. The
 Keep building! 🚀
 
 ---
-Questions? Reach out: kai@la-ai.org
+Questions? Reach out: kaigray@la-ai.io

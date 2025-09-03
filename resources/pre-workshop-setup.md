@@ -80,7 +80,7 @@ Before leaving for workshop:
 
 ## Questions?
 
-Email: kai@la-ai.org
-Discord: [LA-AI Community](https://discord.gg/la-ai)
+Email: kaigray@la-ai.io
+Discord: [LA-AI Community](https://discord.gg/a57wzV3jTE)
 
 See you at the workshop! 🚀
