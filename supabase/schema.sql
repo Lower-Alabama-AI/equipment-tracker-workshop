@@ -6,7 +6,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- Users table (simplified for workshop)
 CREATE TABLE users (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
   email TEXT UNIQUE NOT NULL,
   department TEXT,
@@ -16,7 +16,7 @@ CREATE TABLE users (
 
 -- Equipment table
 CREATE TABLE equipment (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
   category TEXT NOT NULL,
   serial_number TEXT UNIQUE NOT NULL,
@@ -30,9 +30,9 @@ CREATE TABLE equipment (
 
 -- Checkouts table
 CREATE TABLE checkouts (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-  equipment_id UUID REFERENCES equipment(id),
-  user_id UUID REFERENCES users(id),
+  id INTEGER PRIMARY KEY,
+  equipment_id INTEGER REFERENCES equipment(id),
+  user_id INTEGER REFERENCES users(id),
   checkout_date TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   expected_return DATE NOT NULL,
   actual_return TIMESTAMP WITH TIME ZONE,
@@ -40,9 +40,7 @@ CREATE TABLE checkouts (
   condition_in TEXT,
   checkout_notes TEXT,
   return_notes TEXT,
-  is_overdue BOOLEAN GENERATED ALWAYS AS (
-    actual_return IS NULL AND expected_return < CURRENT_DATE
-  ) STORED,
+  -- is_overdue removed - will calculate in queries instead
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
@@ -50,7 +48,7 @@ CREATE TABLE checkouts (
 CREATE INDEX idx_equipment_status ON equipment(status);
 CREATE INDEX idx_checkouts_user ON checkouts(user_id);
 CREATE INDEX idx_checkouts_equipment ON checkouts(equipment_id);
-CREATE INDEX idx_checkouts_overdue ON checkouts(is_overdue) WHERE is_overdue = true;
+-- CREATE INDEX idx_checkouts_overdue ON checkouts(is_overdue) WHERE is_overdue = true;
 
 -- Create view for current checkouts
 CREATE VIEW current_checkouts AS
@@ -60,7 +58,8 @@ SELECT
   e.category as equipment_category,
   u.name as user_name,
   u.email as user_email,
-  u.department as user_department
+  u.department as user_department,
+  (c.actual_return IS NULL AND c.expected_return < CURRENT_DATE) as is_overdue
 FROM checkouts c
 JOIN equipment e ON c.equipment_id = e.id
 JOIN users u ON c.user_id = u.id

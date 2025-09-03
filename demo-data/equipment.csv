@@ -1,11 +1,11 @@
 id,name,category,serial_number,status,condition,notes
-1,MacBook Pro 16",Laptops,MBP-2023-001,available,excellent,Includes charger and case
-2,Canon EOS R5,Cameras,CAM-2023-002,checked_out,good,Minor scratch on LCD
-3,iPad Pro 12.9",Tablets,TAB-2023-003,available,excellent,Keyboard included
-4,DJI Mavic 3,Drones,DRN-2023-004,maintenance,fair,Gimbal needs calibration
-5,Sony A7 III,Cameras,CAM-2023-005,available,good,Two batteries included
-6,Dell XPS 15,Laptops,LAP-2023-006,available,excellent,New purchase
-7,iPhone 14 Pro,Phones,PHN-2023-007,checked_out,excellent,Company phone
-8,GoPro Hero 11,Cameras,CAM-2023-008,available,good,Waterproof case included
-9,Microsoft Surface,Tablets,TAB-2023-009,available,fair,Screen has minor scratches
-10,DJI Mini 3,Drones,DRN-2023-010,available,excellent,Compact drone for events
+650e8400-e29b-41d4-a716-446655440001,MacBook Pro 16",Laptops,MBP-2023-001,available,excellent,Includes charger and case
+650e8400-e29b-41d4-a716-446655440002,Canon EOS R5,Cameras,CAM-2023-002,checked_out,good,Minor scratch on LCD
+650e8400-e29b-41d4-a716-446655440003,iPad Pro 12.9",Tablets,TAB-2023-003,available,excellent,Keyboard included
+650e8400-e29b-41d4-a716-446655440004,DJI Mavic 3,Drones,DRN-2023-004,maintenance,fair,Gimbal needs calibration
+650e8400-e29b-41d4-a716-446655440005,Sony A7 III,Cameras,CAM-2023-005,available,good,Two batteries included
+650e8400-e29b-41d4-a716-446655440006,Dell XPS 15,Laptops,LAP-2023-006,available,excellent,New purchase
+650e8400-e29b-41d4-a716-446655440007,iPhone 14 Pro,Phones,PHN-2023-007,checked_out,excellent,Company phone
+650e8400-e29b-41d4-a716-446655440008,GoPro Hero 11,Cameras,CAM-2023-008,available,good,Waterproof case included
+650e8400-e29b-41d4-a716-446655440009,Microsoft Surface,Tablets,TAB-2023-009,available,fair,Screen has minor scratches
+650e8400-e29b-41d4-a716-446655440010,DJI Mini 3,Drones,DRN-2023-010,available,excellent,Compact drone for events

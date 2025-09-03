@@ -1,12 +1,12 @@
 id,equipment_id,user_id,checkout_date,expected_return,actual_return,condition_out,condition_in,checkout_notes,return_notes
-1,2,1,2024-08-15,2024-08-17,2024-08-17,good,good,For product shoot,Returned on time
-2,1,3,2024-08-18,2024-08-20,2024-08-22,excellent,excellent,Client presentation,2 days late - project extended
-3,5,2,2024-08-20,2024-08-22,2024-08-23,good,good,Video project,One day late
-4,3,1,2024-08-22,2024-08-24,2024-08-24,excellent,excellent,Design work,Perfect return
-5,8,6,2024-08-23,2024-08-25,2024-08-28,good,fair,Beach shoot,Sand in housing - cleaned
-6,2,2,2024-08-25,2024-08-27,2024-08-29,good,good,Portfolio work,Typical 2-day delay
-7,7,4,2024-08-26,2024-08-28,2024-08-28,excellent,excellent,On-call phone,Returned on schedule
-8,10,7,2024-08-28,2024-08-30,2024-08-30,excellent,excellent,Outdoor event,Great condition
-9,1,5,2024-08-30,2024-09-01,2024-09-01,excellent,excellent,Weekend project,On time as usual
-10,5,2,2024-09-01,2024-09-03,,good,,Class project,Currently checked out
-11,2,6,2024-09-02,2024-09-04,,good,,Wedding shoot,Currently checked out
+750e8400-e29b-41d4-a716-446655440001,650e8400-e29b-41d4-a716-446655440002,550e8400-e29b-41d4-a716-446655440001,2024-08-15,2024-08-17,2024-08-17,good,good,For product shoot,Returned on time
+750e8400-e29b-41d4-a716-446655440002,650e8400-e29b-41d4-a716-446655440001,550e8400-e29b-41d4-a716-446655440003,2024-08-18,2024-08-20,2024-08-22,excellent,excellent,Client presentation,2 days late - project extended
+750e8400-e29b-41d4-a716-446655440003,650e8400-e29b-41d4-a716-446655440005,550e8400-e29b-41d4-a716-446655440002,2024-08-20,2024-08-22,2024-08-23,good,good,Video project,One day late
+750e8400-e29b-41d4-a716-446655440004,650e8400-e29b-41d4-a716-446655440003,550e8400-e29b-41d4-a716-446655440001,2024-08-22,2024-08-24,2024-08-24,excellent,excellent,Design work,Perfect return
+750e8400-e29b-41d4-a716-446655440005,650e8400-e29b-41d4-a716-446655440008,550e8400-e29b-41d4-a716-446655440006,2024-08-23,2024-08-25,2024-08-28,good,fair,Beach shoot,Sand in housing - cleaned
+750e8400-e29b-41d4-a716-446655440006,650e8400-e29b-41d4-a716-446655440002,550e8400-e29b-41d4-a716-446655440002,2024-08-25,2024-08-27,2024-08-29,good,good,Portfolio work,Typical 2-day delay
+750e8400-e29b-41d4-a716-446655440007,650e8400-e29b-41d4-a716-446655440007,550e8400-e29b-41d4-a716-446655440004,2024-08-26,2024-08-28,2024-08-28,excellent,excellent,On-call phone,Returned on schedule
+750e8400-e29b-41d4-a716-446655440008,650e8400-e29b-41d4-a716-446655440010,550e8400-e29b-41d4-a716-446655440007,2024-08-28,2024-08-30,2024-08-30,excellent,excellent,Outdoor event,Great condition
+750e8400-e29b-41d4-a716-446655440009,650e8400-e29b-41d4-a716-446655440001,550e8400-e29b-41d4-a716-446655440005,2024-08-30,2024-09-01,2024-09-01,excellent,excellent,Weekend project,On time as usual
+750e8400-e29b-41d4-a716-446655440010,650e8400-e29b-41d4-a716-446655440005,550e8400-e29b-41d4-a716-446655440002,2024-09-01,2024-09-03,,good,,Class project,Currently checked out
+750e8400-e29b-41d4-a716-446655440011,650e8400-e29b-41d4-a716-446655440002,550e8400-e29b-41d4-a716-446655440006,2024-09-02,2024-09-04,,good,,Wedding shoot,Currently checked out
