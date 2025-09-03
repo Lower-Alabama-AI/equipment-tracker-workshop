@@ -10,6 +10,7 @@ Use these prompts in order at [v0.dev](https://v0.dev) to build your equipment t
 4. **04-checkin-flow.md** - Add check-in functionality
 5. **05-user-management.md** - Create user views
 6. **06-ai-integration.md** - Add AI predictions
+7. **07-connect-supabase.md** - Connect to your Supabase database
 
 ## Tips for Using v0
 
@@ -18,6 +19,12 @@ Use these prompts in order at [v0.dev](https://v0.dev) to build your equipment t
 - Ask for "TypeScript" if you want type safety
 - Say "use Supabase client" for database integration
 - Iterate on the generated code with follow-up prompts
+
+## Environment Variables Setup
+
+Before running prompt #7, add these in v0 Settings (gear icon):
+- `NEXT_PUBLIC_SUPABASE_URL` - Your Supabase project URL
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Your Supabase anon key
 
 ## Example Workflow
 
