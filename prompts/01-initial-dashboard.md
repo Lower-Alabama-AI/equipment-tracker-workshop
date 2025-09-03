@@ -2,6 +2,11 @@
 
 Create a modern equipment check-in/check-out tracking system using Next.js app router and TypeScript.
 
+**Important setup requirements**:
+- Use Inter font from Google Fonts (not local fonts)
+- Wrap any components using useSearchParams() in Suspense boundaries
+- Use stable package versions
+
 The dashboard page should have:
 
 1. A sidebar navigation with:

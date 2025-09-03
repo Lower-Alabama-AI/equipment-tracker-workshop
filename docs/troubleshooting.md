@@ -19,6 +19,12 @@
 - Then use "Export" button
 - Choose "Download" or "Push to GitHub"
 
+**Common code errors**
+- Font import errors → Use Google Fonts instead of local
+- Module/blob errors → Use stable package versions
+- useSearchParams error → Wrap in Suspense boundary
+- See [v0 Common Issues Guide](v0-common-issues.md) for detailed fixes
+
 ### Supabase Issues
 
 **Can't create project**
