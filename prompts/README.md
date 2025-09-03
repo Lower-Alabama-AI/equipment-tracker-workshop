@@ -9,8 +9,9 @@ Use these prompts in order at [v0.dev](https://v0.dev) to build your equipment t
 3. **03-checkout-flow.md** - Add check-out functionality
 4. **04-checkin-flow.md** - Add check-in functionality
 5. **05-user-management.md** - Create user views
-6. **06-ai-integration.md** - Add AI predictions
+6. **06-ai-integration.md** - Add AI predictions UI
 7. **07-connect-supabase.md** - Connect to your Supabase database
+8. **08-connect-ai-predictions.md** - Make AI predictions functional
 
 ## Tips for Using v0
 
